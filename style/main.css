@@ -1,0 +1,85 @@
+.apresentacaoGeral{
+  background: #000;
+  color: #fff;
+}
+.apresentacao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  margin-right: 20px;    
+}
+
+.apresentacaoConteudo{
+  align-items: end;
+  padding-bottom: 80px;
+}
+
+.apresentacao h1 span {
+  color: #ffbb00;
+}
+.apresentacao p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+.apresentacao a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.apresentacao a:hover {
+  background: linear-gradient(#ffbf00, #e59317);
+}
+
+@media (max-width: 600px) {
+  .apresentacao a {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .apresentacao h1 {
+    font-size: 48px;
+  }
+  .apresentacao p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .apresentacaoGeral {
+    background: #111;
+    padding-top: 40px;
+    box-shadow: inset 0 -60px #fff;
+  }
+  .apresentacao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .apresentacaoConteudo{
+    padding-bottom: 0px;
+  }
+  .apresentacao h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .apresentacao img{
+    height: 300px;
+    width: 100;
+  }
+}
