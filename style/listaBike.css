@@ -4,6 +4,7 @@
 }
 .listaBike h2{
   margin-bottom: 40px;
+  margin-left: 20px;
 }
 .listaBike ul{
   display: flex;
@@ -53,5 +54,8 @@
   }
   .listaBike ul {
     gap: 20px;
+  }
+  .listaBike h2{
+    margin-left: 20px;
   }
 }
