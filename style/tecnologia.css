@@ -32,6 +32,7 @@
 .tecnologiaConteudo h2 {
   margin-bottom: 32px;
 }
+
 .tecnologiaConteudo > p{
   margin-bottom: 20px;
 }
@@ -70,7 +71,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .tecnologiaImagem{
+  .tecnologiaImage{
     display: none;
   }
   .link{
