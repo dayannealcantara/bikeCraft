@@ -2,7 +2,6 @@
   padding-top: 60px;
   padding-bottom: 120px;
 }
-
 .parceiros h2{
   margin-bottom: 60px;
   margin-left: 20px;
@@ -34,6 +33,9 @@
 @media (max-width: 800px){
   .parceiros {
     padding-bottom: 60px;
+  }
+  .parceiros li {
+    padding: 20px;
   }
   .parceiros h2{
     margin-bottom: 20px;
