@@ -1,0 +1,138 @@
+.tituloBikes {
+  background-color: var(--cor-11);   
+}
+
+.containerBikes{
+  margin-left: 60px;
+}
+
+.bikesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap:40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#bicicleta .titulo p {
+  text-transform: uppercase;
+}
+
+.bikesImg{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bikesImg img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.bikesImg img:first-child{
+  min-width: 100%;
+}
+
+.bikesConteudo > p {
+  margin-bottom: 32px;
+}
+.bikesComprar{
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-content: start;
+  gap: 8px 12px;
+  margin-bottom: 40px;
+}
+
+.bikesComprar a {
+  grid-row: span 2;
+}
+
+.bikesComprar span {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-12);
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.bikesConteudo h2{
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 12px;
+}
+
+.bikesInfo, .bicicleta-ficha {
+  padding: 32px;
+  background-color: var(--cor-12);
+  border-radius: 4px;
+}
+.bikesInfo {
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.bikesInfo img{
+  width: 24px;
+  margin-bottom: 8px;
+}
+.bikesInfo h3{
+  margin-bottom: 8px;
+}
+
+.bicicleta-ficha li {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  1px solid var(--cor-11);
+}
+
+.bicicleta-ficha li:last-child {
+  border-bottom: none;
+}
+
+.bicicleta-ficha span {
+  color: var(--cor-6);
+}
+
+
+.bikesComprar a{
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.apresentacao a:hover {
+  background: linear-gradient(#ffbf00, #e59317);
+}
+
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bikesImg {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .bikesInfo {
+    grid-template-columns: 1fr;
+  }
+  .bikesComprar {
+    grid-template-columns: 1fr;
+  }
+}
