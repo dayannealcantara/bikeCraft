@@ -2,11 +2,10 @@
 
 body {
  margin: 0px;
- padding-bottom: 600px;
- font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
-h1,h2, h3, h4, ul, p {
+h1,h2, h3, h4, ul, p, blockquote{
   margin: 0px;
 }
 
