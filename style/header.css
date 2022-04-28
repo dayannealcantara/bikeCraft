@@ -38,7 +38,7 @@
   position: absolute;
 }
 
-.navMenu a:hover::after{
+.navMenu a:hover::after, .navMenu a.ativo::after{
   width: 100%;
 }
 
