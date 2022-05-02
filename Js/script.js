@@ -42,3 +42,18 @@ function eventosPerguntas(pergunta) {
   pergunta.addEventListener('click', ativarPergunta);
 }
 perguntas.forEach(eventosPerguntas);
+
+// Galeria de imagens
+
+const galeria = document.querySelectorAll('.bikesImg img');
+const galeriaContainer = document.querySelector('.bikesImg');
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  galeriaContainer.prepend(img);
+}
+function eventosGaleria(img) {
+  img.addEventListener('click', trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
